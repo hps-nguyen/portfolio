@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Son Nguyen: Contact</title>
+    <link href="../style.css" rel="stylesheet"/>
+    <script src="../global.js" type="module"></script>
+</head>
+<body>
+
+
+
+    <h1>Contact</h1>
+    
+    <form action="mailto:hpn005@ucsd.edu" method="POST" enctype="text/plain">
+
+        <label>
+            Email:
+            <input name="email" type="email" required placeholder="Your email address">
+        </label>
+        
+        <label>
+            Subject:
+            <input name="subject" type="text" required placeholder="Subject of your message">
+        </label>
+        
+        <label>
+            Body:
+            <textarea name="body" rows="4" cols="50" required placeholder="Write your message here"></textarea>
+        </label>        
+
+        <button type="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>
