@@ -1,5 +1,4 @@
-const basePath = window.location.pathname.replace(/\/[^/]*$/, '');
-import { fetchJSON, renderProjects, fetchGitHubData } from basePath + '/global.js';
+import { fetchJSON, renderProjects, fetchGitHubData } from '/portfolio/global.js';
 
 const projects = await fetchJSON('./lib/projects.json');
 const latestProjects = projects.slice(0, 3);
